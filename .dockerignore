@@ -1,0 +1,12 @@
+Dataset/
+mlruns/
+venv/
+__pycache__/
+*.pyc
+*.csv
+*.parquet
+.git/
+EDA/
+evaluation/
+feature_engineering/
+model training/

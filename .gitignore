@@ -1,0 +1,11 @@
+Dataset/*.csv
+Dataset/*.parquet
+venv/
+mlruns/
+__pycache__/
+*.pyc
+models/
+*.pkl
+*.joblib
+*.h5
+echo "mlruns/" >> .gitignore

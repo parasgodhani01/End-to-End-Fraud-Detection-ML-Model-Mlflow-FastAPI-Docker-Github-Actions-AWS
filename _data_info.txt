@@ -1,0 +1,12 @@
++------------------+----------+--------------------------------------------------------------+
+| Column Name      | Type     | What it Means                                                |
++------------------+----------+--------------------------------------------------------------+
+| step             | int64    | Unit of time — 1 step = 1 hour. Goes from 1 to 744 (30 days)|
+| amount           | float64  | Amount of money in the transaction                           |
+| oldbalanceOrg    | float64  | Sender's balance before the transaction                      |
+| newbalanceOrig   | float64  | Sender's balance after the transaction                       |
+| oldbalanceDest   | float64  | Receiver's balance before the transaction                    |
+| newbalanceDest   | float64  | Receiver's balance after the transaction                     |
+| isFraud          | int64    | Target variable — 1 = fraud, 0 = legitimate                  |
+| isFlaggedFraud   | int64    | 1 = flagged by the existing system, 0 = not flagged         |
++------------------+----------+--------------------------------------------------------------+
