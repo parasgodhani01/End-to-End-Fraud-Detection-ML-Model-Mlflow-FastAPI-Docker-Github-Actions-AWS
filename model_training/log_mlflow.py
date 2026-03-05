@@ -14,7 +14,7 @@ mlflow.set_tracking_uri("mlruns")
 mlflow.set_experiment("fraud-detection")
 
 # Paths 
-MODELS_DIR = "models/"
+MODELS_DIR = "../models/"
 DATA_PATH  = "Dataset/transactions_engineered.parquet"
 
 print("Loading data to recreate test split ...")
