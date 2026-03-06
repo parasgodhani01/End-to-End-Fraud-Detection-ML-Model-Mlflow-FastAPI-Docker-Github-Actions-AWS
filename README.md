@@ -1,7 +1,7 @@
 #  End-to-End ML System with Deployment
 ### Production-Based Fraud Detection System
 
-A production-ready, end-to-end machine learning system for detecting financial fraud — from raw data to a live REST API deployed on AWS.
+Built a production-grade fraud detection system on 6.3M transactions — GPU-trained ml models with 27 engineered features hitting 0.98 PR-AUC, served via FastAPI, containerised with Docker, tracked with MLflow, and auto-deployed to AWS ECS through GitHub Actions CI/CD.
 
 
 ## 🏗️ Architecture
